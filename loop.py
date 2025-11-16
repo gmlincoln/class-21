@@ -36,4 +36,22 @@
 #     print(name.title())
     
 
-newList = 
+# newList = [1, 5, 9, 13, 6, 8, 15, 20, 23, 35, 49]
+# newNum = []
+
+
+# for num in  newList:
+#     if num % 5 == 0:
+#         continue 
+#     newNum.append(num)
+
+# print(newNum)
+
+newList = [1, 5, 9, 13, 6, 8, 15, 20, 23, 35, 49]
+numList = []
+
+for num in newList:
+    if num == 20:
+        break
+    print(num)
+
