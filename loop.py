@@ -47,11 +47,27 @@
 
 # print(newNum)
 
-newList = [1, 5, 9, 13, 6, 8, 15, 20, 23, 35, 49]
-numList = []
+# newList = [1, 5, 9, 13, 15, 20, 23, 35, 49]
+# numList = []
 
-for num in newList:
-    if num == 20:
-        break
-    print(num)
+# for num in newList:
+#     if num == 20:
+#         break
+#     print(num)
 
+
+    # 1.....100
+    # num % 3 == 0 -> print(Fizz)
+    # num % 5 == 0 -> print(Buzz)
+    # num%3 ==0 and num % 5 == 0-> print(FizzBuzz)
+    # print(num) 
+    
+for i in range(1,101):
+    if i % 15 == 0:
+        print("FizzBuzz")
+    elif i%3 == 0:
+        print("Fizz")
+    elif i%5 == 0:
+        print("Buzz")
+    else:
+        print(i)
